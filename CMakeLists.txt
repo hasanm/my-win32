@@ -9,7 +9,7 @@ set(CMAKE_PREFIX_PATH  "${CMAKE_PREFIX_PATH};c:/Qt/6.5.2/msvc2019_64;c:/opencv")
 
 add_executable( ${CMAKE_PROJECT_NAME}
                 WIN32
-                main.cpp
+                hellowin.cpp
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
